@@ -1,0 +1,33 @@
+@media (max-width:1200px) {
+    body{
+        width: 100vw;
+    }
+    .background{
+        width: fit-content;
+    }
+}
+
+@media (max-width:991px){
+    body{
+        width: 100vw;
+    }
+    .background{
+        width: fit-content;
+    }
+}
+@media (max-width:768px){
+    body{
+        width: 100vw;
+    }
+    .background{
+        width: fit-content;
+    }
+}
+@media (max-width:450px){
+    body{
+        width: 100vw;
+    }
+    .background{
+        width: fit-content;
+    }
+}

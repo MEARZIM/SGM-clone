@@ -1,0 +1,194 @@
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    width: 45%;
+    height: 300px;
+    border: 5px solid #4587F5;
+    background-image: url(IMAGE/1st.jpg);
+    background-size: 100% 100%;
+    animation: slide 25s infinite linear ;
+}
+
+@keyframes slide {
+    0%{
+        background-image: url(IMAGE/1st.jpg);
+    }
+    15%{
+        background-image: url(IMAGE/2nd.jpg);
+    }
+    30%{
+        background-image: url(IMAGE/3rd.png);
+    }
+    40%{
+        background-image: url(IMAGE/4th.jpg);
+    }
+    55%{
+        background-image: url(IMAGE/5th.png);
+    }
+    67%{
+        background-image: url(IMAGE/6th.jpeg);
+    }
+    78%{
+        background-image: url(IMAGE/7th.jpg);
+    }
+}
+.animation{
+    display: flex;
+    justify-content: center;
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+}
+.slider1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    width: 25%;
+    height: 150px;
+    margin: 10px;
+    border: 1px solid black;
+    background-image: url(IMAGE/s1p1.jpg);
+    background-size: 100% 100%;
+    animation: slide1 25s infinite linear ;
+}
+
+@keyframes slide1 {
+    0%{
+        background-image: url(IMAGE/s1p1.jpg);
+    }
+    25%{
+        background-image: url(IMAGE/s1p2.jpg);
+    }
+    40%{
+        background-image: url(IMAGE/s1p3.jpg);
+    }
+    60%{
+        background-image: url(IMAGE/s1p4.jpg);
+    }
+}
+.slider2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    width: 25%;
+    height: 150px;
+    margin: 10px;
+    border: 1px solid black;
+    background-image: url(IMAGE/s2p1.jpg);
+    background-size: 100% 100%;
+    animation: slide2 25s infinite linear ;
+}
+
+@keyframes slide2 {
+    0%{
+        background-image: url(IMAGE/s2p1.jpg);
+    }
+    25%{
+        background-image: url(IMAGE/s2p2.jpg);
+    }
+    40%{
+        background-image: url(IMAGE/s2p3.jpg);
+    }
+    60%{
+        background-image: url(IMAGE/s2p4.jpg);
+    }
+}
+.slider3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    width: 25%;
+    height: 150px;
+    margin: 10px;
+    border: 1px solid black;
+    background-image: url(IMAGE/s3p1.jpg);
+    background-size: 100% 100%;
+    animation: slide3 25s infinite linear ;
+}
+
+@keyframes slide3 {
+    0%{
+        background-image: url(IMAGE/s3p1.jpg);
+    }
+    25%{
+        background-image: url(IMAGE/s3p2.jpg);
+    }
+    40%{
+        background-image: url(IMAGE/s3p3.jpg);
+    }
+    60%{
+        background-image: url(IMAGE/s3p4.jpg);
+    }
+}
+.slider4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    width: 45%;
+    height: 150px;
+    margin: 10px;
+    border: 1px solid black;
+    background-image: url(IMAGE/s4p1.jpg);
+    background-size: 100% 100%;
+    animation: slide4 25s infinite linear ;
+}
+
+@keyframes slide4 {
+    0%{
+        background-image: url(IMAGE/s4p1.jpg);
+    }
+    25%{
+        background-image: url(IMAGE/s4p2.jpg);
+    }
+    40%{
+        background-image: url(IMAGE/s4p3.jpg);
+    }
+    60%{
+        background-image: url(IMAGE/s4p2.jpg);
+    }
+}
+.slider5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    width: 45%;
+    height: 150px;
+    margin: 10px;
+    border: 1px solid black;
+    background-image: url(IMAGE/s5p1.jpg);
+    background-size: 100% 100%;
+    animation: slide5 25s infinite linear ;
+}
+
+@keyframes slide5 {
+    0%{
+        background-image: url(IMAGE/s5p1.jpg);
+    }
+    25%{
+        background-image: url(IMAGE/s5p2.jpg);
+    }
+    40%{
+        background-image: url(IMAGE/s5p3.jpg);
+    }
+    60%{
+        background-image: url(IMAGE/s5p2.jpg);
+    }
+}
